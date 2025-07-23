@@ -170,6 +170,13 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- if we are in a directory with project.godot file, start listening to godot calls
+local gdproject = io.open(vim.fn.getcwd() .. '/project.godot', 'r')
+if gdproject then
+  io.close(gdproject)
+  vim.fn.serverstart '/tmp/godothost'
+end
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
