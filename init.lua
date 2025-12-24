@@ -257,6 +257,7 @@ rtp:prepend(lazypath)
 --
 --  To update plugins you can run
 --    :Lazy update
+
 --
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
@@ -1022,6 +1023,7 @@ require('lazy').setup({
 
   -- custom plugins
   require 'custom.plugins.catppuccin',
+  require 'custom.plugins.oil',
   require 'custom.plugins.luasnip',
   require 'custom.plugins.yazi',
 
