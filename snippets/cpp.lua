@@ -5,10 +5,12 @@ return {
   s('cft', {
     t {
       '#include <bits/stdc++.h>',
+      '//#define int long long',
       'using namespace std;',
       'using ll = long long;',
       'using vb = vector<bool>;',
       'using vi = vector<int>;',
+      'using vpi = vector<pair<int, int>>;',
       'using vvi = vector<vector<int>>;',
       'using vl = vector<ll>;',
       'using vvl = vector<vector<ll>>;',
@@ -44,10 +46,12 @@ return {
   s('cf', {
     t {
       '#include <bits/stdc++.h>',
+      '//#define int long long',
       'using namespace std;',
       'using ll = long long;',
       'using vb = vector<bool>;',
       'using vi = vector<int>;',
+      'using vpi = vector<pair<int, int>>;',
       'using vvi = vector<vector<int>>;',
       'using vl = vector<ll>;',
       'using vvl = vector<vector<ll>>;',
